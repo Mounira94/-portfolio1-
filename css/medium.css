@@ -1,0 +1,45 @@
+.about
+{
+  
+    flex-direction: column;
+    flex-wrap: wrap nowrap;
+    width: 100%;
+    padding-left: 0;
+    padding-top: 50px;
+    height: auto;
+   
+}
+
+.about-txt-img{
+    order:-1;
+    margin-bottom: 30px;
+}
+.contact
+{
+    padding-left: 0px;
+
+}
+.contact-formulaire
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap:wrap  ;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: auto;
+    height: auto;
+}
+.formulaire
+{
+    margin-right: 0px;
+}
+.formulaire-inputs
+{
+    margin-right: 0px;
+}
+.desc-parag
+{
+    margin-right: 0px;
+}
