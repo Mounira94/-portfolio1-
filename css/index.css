@@ -42,6 +42,18 @@
     text-decoration-line: none;
     font-weight: bold;
 }
+#check{
+    visibility: hidden;
+    position: absolute
+}
+
+label{
+    padding:10px;
+    font-size:30px;
+    color: silver;
+    font-weight: bold;
+    display: none;
+}
 .main
 {
     margin-top: 0px;
@@ -173,6 +185,9 @@
 
     margin-left: 100px;
     margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    
 }
 .hr-section
 {
@@ -185,9 +200,13 @@
     display: flex;
     margin-left: 50px;
     margin-right: 50px;
+
 }
 .formulaire
 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: auto;
     height: auto ;
     margin-bottom: 60px;
